@@ -26,4 +26,15 @@ https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja
   * Aplicado em:
     1. [Menu](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/tree/master/Projeto-OO-Loja/src/br/com/loja/command/menu)
     2. [MenuProdutos](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/tree/master/Projeto-OO-Loja/src/br/com/loja/command/menuProd)
+    
+### Classes e Métodos afetados:
+
+* Classes:
+  1. [Cliente](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java)
+     * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java#L14)
+  2. [Endereco](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java)
+     * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java#L23)
+     
+     INCOMPLETE README
+  
 
