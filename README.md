@@ -30,11 +30,20 @@ https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja
 ### Classes e Métodos afetados:
 
 * Classes:
-  1. [Cliente](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java)
-     * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java#L14)
-  2. [Endereco](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java)
-     * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java#L23)
+  * [Cliente](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java)
+    * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Cliente.java#L14)
+  * [Endereco](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java)
+    * [Builder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/e95667f851306125b559083ce8f34ede387b7fb4/Projeto-OO-Loja/src/br/com/loja/clientes/Endereco.java#L23)
+  * [GerenciadorClientes](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/clientes/GerenciadorClientes.java)
+    * [EnderecoBuilder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/06b8795185759a028b8278fa13c1c2c5145d6e76/Projeto-OO-Loja/src/br/com/loja/clientes/GerenciadorClientes.java#L44) - Aplicação
+    * [ClienteBuilder](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/06b8795185759a028b8278fa13c1c2c5145d6e76/Projeto-OO-Loja/src/br/com/loja/clientes/GerenciadorClientes.java#L124) - Aplicação
+  * Para cada [Produto](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/tree/master/Projeto-OO-Loja/src/br/com/loja/produtos) foi implementado um Builder.
+  * [Main](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/visao/Main.java)
+    * Utilização do Singleton para instanciar o [Menu](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/06b8795185759a028b8278fa13c1c2c5145d6e76/Projeto-OO-Loja/src/br/com/loja/visao/Main.java#L16).
+  * [Menu](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/visao/Main.java)
+    * [Singleton](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/06b8795185759a028b8278fa13c1c2c5145d6e76/Projeto-OO-Loja/src/br/com/loja/visao/Menu.java#L29)
+  * Foi criada a classe [Utilidades](https://github.com/paulobernardoaf/RefatoramentoSistemaDeLoja/blob/master/Projeto-OO-Loja/src/br/com/loja/Utilidades.java) para tratar exceções de entrada.
      
-     INCOMPLETE README
-  
+     
+#### Nenhuma funcionalidade do programa original foi modificada.
 
