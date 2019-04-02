@@ -13,7 +13,7 @@ public class Main {
   
     public static void main(String[] args){
         //Scanner e instâncias
-        Menu m = new Menu();
+        Menu m = Menu.getInstance();
         Calendar c = Calendar.getInstance();
         Date data = c.getTime();
 

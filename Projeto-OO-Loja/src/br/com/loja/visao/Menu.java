@@ -21,6 +21,18 @@ public class Menu {
     GerenciadorClientes gC = new GerenciadorClientes();
     GerenciadorVendas gV = new GerenciadorVendas();
     MenuProdutos mprod = new MenuProdutos();
+
+    private static Menu uniqueMenu;
+
+    private Menu() {}
+
+    public static Menu getInstance() {
+        if (uniqueMenu == null) {
+            uniqueMenu = new Menu();
+        }
+
+        return uniqueMenu;
+    }
     
     //atributos e controladores..
     private int opcaoMenu;
